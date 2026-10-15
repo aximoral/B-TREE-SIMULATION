@@ -22,19 +22,28 @@ Designed for computer science students and engineers to intuitively understand e
 
 ## 🚀 Quick Start (Running Locally)
 
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) installed.
+### ⚡ Option A: One-Click Launch (Easiest)
+Make sure you have [Node.js](https://nodejs.org/) installed, then simply double-click the launcher script:
+- **Windows**: Double-click **`run.bat`**
+- **macOS / Linux**: Run `./run.sh` (or double-click after granting execute permission: `chmod +x run.sh`)
 
-### 1. Install Dependencies
-```bash
-npm install
-```
+> 💡 **What it does**: On first run, it automatically installs any missing dependencies, boots the local Vite development server, and opens your default web browser directly to the simulation. Subsequent runs start instantly!
 
-### 2. Start the Development Server
-```bash
-npm run dev
-```
-Open [http://localhost:5173](http://localhost:5173) in your browser to interact with the visualizer with hot reloading.
+---
+
+### 💻 Option B: Manual Command Line
+If you prefer running terminal commands manually:
+
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Start Development Server**:
+   ```bash
+   npm run dev
+   ```
+   Your browser will automatically open [http://localhost:5173](http://localhost:5173).
 
 ### 3. Production Build & Offline Bundler
 ```bash
