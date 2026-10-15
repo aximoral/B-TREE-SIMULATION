@@ -28,3 +28,8 @@ lerna-debug.log*
 # OS metadata
 .DS_Store
 Thumbs.db
+
+# AI artifacts & documentation
+ai-docs/
+.ai/
+.impeccable/
